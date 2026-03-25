@@ -1,19 +1,15 @@
-import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Header from "@/components/header/page";
+import Footer from "@/components/footer/page";
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function  RootLayout({children}: Readonly<{ children: React.ReactNode; }>) {
   return (
     <html lang="en">
-      <body
-        className={`antialiased`}
-      >
-        {children}
-      </body>
+        <body className={'flex flex-col justify-between antialiased'}>
+            <Header/>
+            {children}
+            <Footer/>
+        </body>
     </html>
   );
 }

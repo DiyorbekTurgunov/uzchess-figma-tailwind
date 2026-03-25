@@ -1,10 +1,12 @@
-import "./globals.css"
-import Header from "@/components/header/page";
+import Link from "next/link";
+import Main from "@/app/main/page";
+import Editor from "@/components/news/editor/Editor";
 
-export default function App() {
-  return (
-    <div>
-        <Header/>
-    </div>
-  );
+export default function Home() {
+    return (
+        <main className="px-8 pt-6 text-white">
+            <Link href="/"><Main/></Link>
+            <Editor/>
+        </main>
+    );
 }
