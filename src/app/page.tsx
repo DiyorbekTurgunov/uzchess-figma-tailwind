@@ -4,9 +4,9 @@ import Editor from "@/components/news/editor/Editor";
 
 export default function Home() {
     return (
-        <main className="px-8 pt-6 text-white">
+        <main className="mx-8 pt-6 text-white">
             <Link href="/"><Main/></Link>
-            <Editor/>
+            {/*<Editor/>*/}
         </main>
     );
 }

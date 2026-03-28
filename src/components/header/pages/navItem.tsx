@@ -1,19 +1,18 @@
 import Link from "next/link";
 
-type props = {
-    isActive: boolean;
+interface Props {
     title: string;
     url: string;
+    isActive: boolean;
 }
 
-export const NavItem = ({title, url, isActive}: props ) => {
-
-    return (
+export const NavItem = ({title, url, isActive}: Props) => {
+    return(
         <li className={"relative py-2"}>
             <Link href={url}>
                 {title}
-                {isActive && <div className="absolute bottom-0 left-0 w-full h-0.5 bg-(--blue)"></div>}
+                {isActive && <div className="absolute bottom-b border-2 bg-blue w-full h-0.5 "></div>}
             </Link>
         </li>
-    );
-};
+    )
+}

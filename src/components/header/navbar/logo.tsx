@@ -16,10 +16,10 @@ export default function Logo () {
         setRotated(false);
     };
     return (
-        <div className="flex z-20 items-center gap-5">
+        <div className="flex shrink-0 items-center gap-5">
             <Image src="/svg/uzchess.svg" alt="logo" width={104} height={40} className={"mb-2"}/>
             <div className="flex shrink-0 w-px h-6 bg-[#3D4549]"></div>
-            <div className="relative w-40 bg-[#1A1D1F] rounded-lg">
+            <div className="relative w-30 bg-[#1A1D1F] rounded-lg">
                 <button
                     onClick={() => {
                         setOpen(!open);
