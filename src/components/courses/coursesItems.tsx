@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function CoursesItems() {
     return (
-        <main className={"flex flex-col w-full "}>
+        <main className={"flex flex-col w-full hover:cursor-pointer"}>
             <div className={"flex w-169 h-47.25 gap-5 bg-[#1A1D1F] rounded-lg p-6 "}>
                 <div className={"flex w-66.25 h-35.25 rounded-md bg-[#13181C] border border-white/15 overflow-hidden"}>
                     <Image className={""} src={"/image/mulder.png"} alt={"img"} width={190} height={146} />

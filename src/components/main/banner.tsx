@@ -14,7 +14,7 @@ export default function Banner() {
                     Aynan siz uchun qanday
                     imtiyozlar borligini
                     bilib oling</div>
-                <div className={"flex justify-center items-center  w-37.25 h-10 bg-[#1C92E0] rounded-lg gap-2.5"}>
+                <div className={"flex justify-center items-center  w-37.25 h-10 bg-[#1C92E0] rounded-lg gap-2.5 hover:cursor-pointer"}>
                     Batafsil
                     <Image src={"/svg/batafsil.svg"} alt={"svg"} width={20} height={20}/>
                 </div>

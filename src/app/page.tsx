@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Main from "@/app/main/page";
 import Editor from "@/components/news/editor/Editor";
+import BookAbout from "@/components/library/pages/book-about";
 
 export default function Home() {
     return (
