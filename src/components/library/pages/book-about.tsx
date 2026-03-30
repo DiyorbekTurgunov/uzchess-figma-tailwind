@@ -1,7 +1,7 @@
 'use client';
 import Image from "next/image";
 import Banner from "@/components/main/banner";
-import Library from "@/components/main/library";
+import LibrarySection from "@/components/main/library-section";
 import {useState} from "react";
 
 export default function BookAbout() {
@@ -12,12 +12,12 @@ export default function BookAbout() {
             <div className="w-256.5 h-133.75 bg-[#1A1D1F] rounded-xl p-8">
                 <div className={"flex flex-col gap-6"}>
                     <div className={"flex gap-5"}>
-                        <div className={"flex justify-center items-center overflow-hidden w-[195px] h-[272px] bg-[#13181C] rounded-lg border border-[#F7F9FA14]"}>
+                        <div className={"flex justify-center items-center overflow-hidden w-48.75 h-68 bg-[#13181C] rounded-lg border border-[#F7F9FA14]"}>
                             <Image className={"blur-md"} src={"/image/horse_lib.png"} alt={"img"} width={175} height={235}/>
                             <Image className={"absolute"} src={"/image/horse_lib.png"} alt={"img"} width={115} height={175}/>
                         </div>
                         <div className={"flex flex-col justify-between"}>
-                            <p className={"font-bold text-[28px] text-[#F7F9FA]"}>
+                            <p className={"font-bold text-[28px] text-[#F7F9FA] leading-snug"}>
                                 Shaxmatdagi qobiliyatlaringizga qayta <br/> baxo bering</p>
                             <div className={"flex items-center gap-3"}>
                                 <Image src={"svg/dollar.svg"} alt={"svg"} width={28} height={28}/>
@@ -91,7 +91,7 @@ export default function BookAbout() {
             </div>
             <div className={"flex flex-col gap-6"}>
                 <Banner/>
-                <Library/>
+                <LibrarySection/>
             </div>
         </main>
     )

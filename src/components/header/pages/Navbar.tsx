@@ -2,7 +2,7 @@ import { usePathname } from "next/navigation"
 import { NavItem } from "./navItem"
 
 const destination = [
-    {title: "Asosiy", url: "/main"},
+    {title: "Asosiy", url: "/"},
     {title: "Yangiliklar", url: "/news"},
     {title: "Kurslar", url: "/courses"},
     {title: "Kutubxona", url: "/library"},

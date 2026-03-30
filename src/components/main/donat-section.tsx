@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function Donat() {
+export default function DonatSection() {
     return(
         <main className="flex justify-center items-center w-81.5 h-20.5 rounded-lg bg-[#1A1D1F] gap-3 hover:cursor-pointer">
             <Image src="/svg/Icon_charity.svg" alt="Charity" width={42} height={42}/>

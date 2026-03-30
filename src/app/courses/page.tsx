@@ -4,7 +4,7 @@ import Filters from "@/components/courses/filter/course-filters";
 import CoursesItems from "@/components/courses/coursesItems";
 import CoursesSearch from "@/components/courses/coursesSearch";
 import Banner from "@/components/main/banner";
-import Donat from "@/components/main/donat";
+import DonatSection from "@/components/main/donat-section";
 import CourseSection from "@/components/courses/courseSection";
 import {Breadcrumbs} from "@/components/Breadcrumbs/Breadcrumbs";
 
@@ -24,12 +24,12 @@ export default function CoursesPage () {
                     <CoursesItems/>
                     <CoursesItems/>
                     <CoursesItems/>
-                    <div className={"flex justify-center items-center w-32.75 h-10 bg-[#202020] rounded-lg hover:cursor-pointer"}>Ko‘proq</div>
+                    <div className={"flex justify-center items-center w-36 h-10 bg-[#F7F9FA1A] border border-[#F7F9FA4D] rounded-lg hover:cursor-pointer"}>Kop`roq</div>
                 </div>
 
                 <div className={"flex flex-col gap-6"}>
                     <Banner/>
-                    <Donat/>
+                    <DonatSection/>
                 </div>
             </div>
         </main>

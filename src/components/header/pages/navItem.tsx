@@ -11,7 +11,7 @@ export const NavItem = ({title, url, isActive}: Props) => {
         <li className={"relative py-2"}>
             <Link href={url}>
                 {title}
-                {isActive && <div className="absolute bottom-b border-2 bg-blue w-full h-0.5 "></div>}
+                {isActive && <div className="absolute h-0.5 bg-[#1C92E0] w-full "></div>}
             </Link>
         </li>
     )

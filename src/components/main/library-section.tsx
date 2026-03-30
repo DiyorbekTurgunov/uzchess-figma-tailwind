@@ -3,7 +3,7 @@
 import Image from "next/image";
 import BooksSelection from "@/components/library/books-selection";
 
-export default function Library() {
+export default function LibrarySection() {
     return (
         <main className="flex flex-col w-81.5 h-117.5 bg-[#1A1D1F] rounded-lg py-4 gap-5">
             <div className={"flex justify-between px-4"}>
