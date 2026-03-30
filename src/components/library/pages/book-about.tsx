@@ -1,11 +1,15 @@
 'use client';
 import Image from "next/image";
-import Link from "next/link";
+import Banner from "@/components/main/banner";
+import Library from "@/components/main/library";
+import {useState} from "react";
 
 export default function BookAbout() {
+    const [active, setActive] = useState(false);
+
     return (
-        <Link href="/book-about">
-            <main className="w-[1026px] h-[535px] bg-[#1A1D1F] rounded-xl p-8">
+        <main className="flex justify-center gap-6">
+            <div className="w-256.5 h-133.75 bg-[#1A1D1F] rounded-xl p-8">
                 <div className={"flex flex-col gap-6"}>
                     <div className={"flex gap-5"}>
                         <div className={"flex justify-center items-center overflow-hidden w-[195px] h-[272px] bg-[#13181C] rounded-lg border border-[#F7F9FA14]"}>
@@ -51,14 +55,20 @@ export default function BookAbout() {
                                 </div>
                             </div>
                             <div className={"flex gap-4"}>
-                                <div className={"flex justify-center items-center w-59.5 h-12.5 bg-[#1C92E0] rounded-lg gap-2.5"}>
-                                    <Image src={"/svg/Savatcha.svg"} alt={"svg"} width={24} height={24}/>
-                                    <p className={"font-medim text-[20px] text-[#F7F9FA]"}>Savatchaga</p>
+                                <div onClick={() => setActive(!active)} className={`flex justify-center items-center w-59.5 h-12.5 bg-[#1C92E0] rounded-lg gap-2.5 hover:cursor-pointer  active:scale-99
+                                    ${active ? "bg-[#FFFFFF1A]" : "bg-[#1C92E0]"}`}>
+                                    <Image
+                                        src={active ? "/svg/cart_add.svg" : "/svg/Savatcha.svg"}
+                                        alt="icon"
+                                        width={24}
+                                        height={24}
+                                    />
+                                    <p className={"font-medim text-[20px] text-[#F7F9FA]"}>{active ? "Savatchada" : "Savatchaga"}</p>
                                 </div>
-                                <div className={"flex justify-center items-center w-12.5 h-12.5 bg-[#F7F9FA1A] rounded-lg border border-[#F7F9FA4D]"}>
+                                <div className={"flex justify-center items-center w-12.5 h-12.5 bg-[#F7F9FA1A] rounded-lg border border-[#F7F9FA4D] hover:cursor-pointer active:scale-98"}>
                                     <Image src={"/svg/heart-outline.svg"} alt={"svg"} width={24} height={24}/>
                                 </div>
-                                <div className={"flex justify-center items-center w-12.5 h-12.5 bg-[#F7F9FA1A] rounded-lg border border-[#F7F9FA4D]"}>
+                                <div className={"flex justify-center items-center w-12.5 h-12.5 bg-[#F7F9FA1A] rounded-lg border border-[#F7F9FA4D] hover:cursor-pointer active:scale-98"}>
                                     <Image src={"/svg/share.svg"} alt={"svg"} width={24} height={24}/>
                                 </div>
                             </div>
@@ -78,7 +88,11 @@ export default function BookAbout() {
                             darajasidagi pozitsion poydevor.</p>
                     </div>
                 </div>
-            </main>
-        </Link>
+            </div>
+            <div className={"flex flex-col gap-6"}>
+                <Banner/>
+                <Library/>
+            </div>
+        </main>
     )
 }

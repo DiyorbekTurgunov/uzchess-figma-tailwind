@@ -2,11 +2,11 @@ import { usePathname } from "next/navigation"
 import { NavItem } from "./navItem"
 
 const destination = [
-    {title: "Asosiy", url: "/"},
+    {title: "Asosiy", url: "/main"},
     {title: "Yangiliklar", url: "/news"},
     {title: "Kurslar", url: "/courses"},
     {title: "Kutubxona", url: "/library"},
-    {title: "Bog'lanish", url: "/contact-us"},
+    {title: "Bog'lanish", url: "/contact"},
 ]
 
 export const NavBar = () => {

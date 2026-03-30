@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="24d02657-c612-4a1b-b3fa-36f9b51d81cc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uzches-figma-tailwind.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/contact/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/contact/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/courses/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/courses/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/library/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/library/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/main/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/main/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/news/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/news/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/pages/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/pages/Navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/library/pages/book-about.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/library/pages/book-about.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main/banner.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/banner.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main/library.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/library.tsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="3AvAFaKuW49LbyceMpRNYKOewvq" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+    <ConfirmationsSetting value="1" id="Remove" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "javascript.preferred.runtime.type.id": "node",
+    "js.debugger.nextJs.config.created.client": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "C:/Users/turgu/WebstormProjects/untitled1",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "npm",
+    "npm.dev.executor": "Run",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "to.speed.mode.migration.done": "true",
+    "ts.external.directory.path": "C:\\Users\\turgu\\WebstormProjects\\untitled1\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "GitStage.ChangesTree.GroupingKeys": [
+      "directory",
+      "module",
+      "repository"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\turgu\WebstormProjects\untitled1\public\svg" />
+      <recent name="C:\Users\turgu\WebstormProjects\untitled1\public\image" />
+      <recent name="C:\Users\turgu\WebstormProjects\untitled1\src\components\news" />
+      <recent name="C:\Users\turgu\WebstormProjects\untitled1\public" />
+      <recent name="C:\Users\turgu\WebstormProjects\untitled1\src\assets\icons" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\turgu\WebstormProjects\untitled1\public\svg" />
+      <recent name="C:\Users\turgu\WebstormProjects\untitled1\src\components\library" />
+      <recent name="C:\Users\turgu\WebstormProjects\untitled1\src\components\contact" />
+      <recent name="C:\Users\turgu\WebstormProjects\untitled1\public\image" />
+      <recent name="C:\Users\turgu\WebstormProjects\untitled1\src\components\library\pages" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.dev">
+    <configuration name="Next.js: debug client-side" type="JavascriptDebugType" uri="http://localhost:3000/">
+      <method v="2" />
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <EXTENSION ID="com.intellij.javascript.debugger.execution.StartBrowserRunConfigurationExtension">
+        <browser with-js-debugger="true" />
+      </EXTENSION>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-WS-253.32098.39" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="24d02657-c612-4a1b-b3fa-36f9b51d81cc" name="Changes" comment="" />
+      <created>1773462568804</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1773462568804</updated>
+      <workItem from="1773462569941" duration="6462000" />
+      <workItem from="1773491655874" duration="295000" />
+      <workItem from="1773644605373" duration="10086000" />
+      <workItem from="1773817374159" duration="10061000" />
+      <workItem from="1774253409398" duration="130000" />
+      <workItem from="1774254288021" duration="7726000" />
+      <workItem from="1774328754590" duration="6718000" />
+      <workItem from="1774409749389" duration="3449000" />
+      <workItem from="1774424830993" duration="9686000" />
+      <workItem from="1774613103352" duration="6099000" />
+      <workItem from="1774670482077" duration="13478000" />
+      <workItem from="1774688764145" duration="3171000" />
+      <workItem from="1774692339610" duration="3889000" />
+      <workItem from="1774696580364" duration="18996000" />
+      <workItem from="1774721454432" duration="1540000" />
+      <workItem from="1774723035053" duration="3041000" />
+      <workItem from="1774726262777" duration="16763000" />
+      <workItem from="1774770408383" duration="5892000" />
+      <workItem from="1774854474333" duration="2046000" />
+      <workItem from="1774856578369" duration="2748000" />
+      <workItem from="1774859387354" duration="24000" />
+      <workItem from="1774859421762" duration="66000" />
+      <workItem from="1774859526624" duration="206000" />
+      <workItem from="1774859754898" duration="46000" />
+      <workItem from="1774859841095" duration="279000" />
+      <workItem from="1774860312165" duration="57000" />
+      <workItem from="1774860393960" duration="122000" />
+      <workItem from="1774861404061" duration="3028000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
