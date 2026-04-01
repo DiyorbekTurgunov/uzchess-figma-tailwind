@@ -1,6 +1,6 @@
 'use client';
 
-import Filters from "@/components/courses/filter/course-filters";
+import Filters from "@/components/courses/filters/course-filters";
 import CoursesItems from "@/components/courses/coursesItems";
 import CoursesSearch from "@/components/courses/coursesSearch";
 import Banner from "@/components/main/banner";
@@ -20,9 +20,6 @@ export default function CoursesPage () {
 
                 <div className={"flex flex-col items-center gap-6"}>
                     <CoursesSearch/>
-                    <CoursesItems/>
-                    <CoursesItems/>
-                    <CoursesItems/>
                     <CoursesItems/>
                     <div className={"flex justify-center items-center w-36 h-10 bg-[#F7F9FA1A] border border-[#F7F9FA4D] rounded-lg hover:cursor-pointer"}>Kop`roq</div>
                 </div>

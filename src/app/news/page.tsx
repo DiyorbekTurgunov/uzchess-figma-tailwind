@@ -10,21 +10,10 @@ export default function NewsPage () {
     return(
         <main className="flex flex-col">
             <Breadcrumbs items={[{label: 'Yangiliklar', link: '/news'}]}/>
-            <div className="flex justify-center gap-6 px-8 ">
+            <div className="flex justify-center gap-8 px-8 ">
                 <div className="flex flex-col items-center gap-6">
                     <Search/>
-                    <div className="self-center grid justify-center grid-cols-1 md:grid-cols-2 lg:grid-cols-[repeat(3,20.375rem)] gap-6">
-                        <NewsItem/>
-                        <NewsItem/>
-                        <NewsItem/>
-                        <NewsItem/>
-                        <NewsItem/>
-                        <NewsItem/>
-                        <NewsItem/>
-                        <NewsItem/>
-                        <NewsItem/>
-                        <NewsItem/>
-                        <NewsItem/>
+                    <div>
                         <NewsItem/>
                     </div>
                     <div className={"flex justify-center items-center w-36 h-10 bg-[#F7F9FA1A] border border-[#F7F9FA4D] rounded-lg hover:cursor-pointer"}>Kop`roq</div>

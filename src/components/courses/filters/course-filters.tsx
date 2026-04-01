@@ -1,8 +1,8 @@
 'use client';
 import Image from "next/image";
-import DropdownLanguage from "@/components/courses/filter/filter-language";
-import DropdownLevel from "@/components/courses/filter/filter-level";
-import DropdownCategories from "@/components/courses/filter/filter-categories";
+import DropdownLanguage from "@/components/courses/filters/filter-language";
+import DropdownLevel from "@/components/courses/filters/filter-level";
+import DropdownCategories from "@/components/courses/filters/filter-categories";
 
 export default function CoursesFilters() {
     return (

@@ -19,10 +19,6 @@ export default function LibraryPage () {
                     <div className={"flex flex-col gap-6 items-center"}>
                         <CoursesSearch/>
                         <LibraryItem/>
-                        <LibraryItem/>
-                        <LibraryItem/>
-                        <LibraryItem/>
-                        <LibraryItem/>
                         <div className={"flex justify-center items-center w-36 h-10 bg-[#F7F9FA1A] border border-[#F7F9FA4D] rounded-lg hover:cursor-pointer"}>Kop`roq</div>
                     </div>
                     <div className={"flex flex-col gap-6"}>

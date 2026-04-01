@@ -6,7 +6,10 @@ import {Breadcrumbs} from "@/components/Breadcrumbs/Breadcrumbs";
 export default function NewsFullPage() {
     return (
         <main className="flex flex-col">
-            <Breadcrumbs items={[{label: "Yangi", link: "/news-full"}]}/>
+            <Breadcrumbs items={[
+                {label: "Yangiliklar", link: "/news"},
+                {label: "title", link: "/news-full"}
+            ]}/>
             <NewsFull/>
         </main>
     )

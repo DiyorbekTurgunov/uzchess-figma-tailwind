@@ -44,23 +44,10 @@ export default function LibraryItem() {
                 <div className={"flex justify-between items-center"}>
                     <div
                         onClick={() => setActive(!active)}
-                        className={`
-                        flex justify-center items-center 
-                        w-49.5 h-10 
-                        rounded-lg gap-2.5 cursor-pointer transition
-                        ${active ? "bg-[#FFFFFF1A]" : "bg-[#1C92E0]"}
-                      `}    
-                    >
-                        <Image
-                            src={active ? "/svg/cart_add.svg" : "/svg/Savatcha.svg"}
-                            alt="icon"
-                            width={20}
-                            height={20}
-                        />
-
-                        <p className="font-medium text-[16px] text-white">
-                            {active ? "Savatchada" : "Savatchaga"}
-                        </p>
+                        className={`flex justify-center items-center 
+                        w-49.5 h-10 rounded-lg gap-2.5 cursor-pointer transition ${active ? "bg-[#FFFFFF1A]" : "bg-[#1C92E0]"}`}>
+                        <Image src={active ? "/svg/cart_add.svg" : "/svg/Savatcha.svg"} alt="icon" width={20} height={20}/>
+                        <p className="font-medium text-[16px] text-white"> {active ? "Savatchada" : "Savatchaga"} </p>
                     </div>
                     <Image onClick={() => setHeart(!heart)} className={"hover:cursor-pointer"} src={heart ? "/svg/red-heart.svg" : "/svg/heart-outline.svg"} alt={"svg"} width={24} height={24}/>
                 </div>

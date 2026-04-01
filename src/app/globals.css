@@ -23,3 +23,13 @@ body {
 .poppins {
      font-family: 'Poppins', sans-serif;
 }
+ @layer utilities {
+     .animate-slide-left {
+         animation: slideLeft 4s linear infinite;
+     }
+
+     @keyframes slideLeft {
+         0% { transform: translateX(670px); }
+         100% { transform: translateX(-170px); }
+     }
+ }

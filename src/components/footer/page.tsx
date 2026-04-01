@@ -3,6 +3,7 @@
 import Image from "next/image"
 import UrlPages from "@/components/footer/url/urlPages";
 import ProviderPage from "@/components/footer/providers/providersPage";
+import Link from "next/link";
 
 export default function Footer () {
     return (
@@ -15,7 +16,9 @@ export default function Footer () {
                 <div className={"w-28"}>
                     <Image src="/svg/fly_hourse.svg" alt="chevron" width={33} height={18}/>
                 </div>
-                <p className="text-[#EFEFEF] font-normal text-base hover:cursor-pointer  hover:text-[#1C92E0] active:scale-98">Foydalanish qoidalari</p>
+                <Link href="/rules-use">
+                    <p className="text-[#EFEFEF] font-normal text-base hover:cursor-pointer  hover:text-[#1C92E0] active:scale-98">Foydalanish qoidalari</p>
+                </Link>
             </div>
         </div>
     )

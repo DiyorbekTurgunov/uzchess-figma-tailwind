@@ -6,26 +6,27 @@
   <component name="ChangeListManager">
     <list default="true" id="24d02657-c612-4a1b-b3fa-36f9b51d81cc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/books/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/contact/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/contact/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/courses/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/courses/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/main/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/main/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/library/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/library/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/news-full/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/news-full/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/news/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/news/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/courses/coursesItems.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/courses/coursesItems.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/pages/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/pages/Navbar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/pages/navItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/pages/navItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/courses/filter/course-filters.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/courses/filter/filter-categories.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/courses/filter/filter-language.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/courses/filter/filter-level.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/library/books-selection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/library/books-selection.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/library/library-filter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/library/library-filter.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/library/library-section.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/library/library-section.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/library/libraryItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/library/libraryItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/library/pages/book-about.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/library/pages/book-about.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/main/donat.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/main/library.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/main/news.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/news.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/main/sections.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/sections.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main/chess-banner.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/chess-banner.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main/library-section.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/library-section.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/news/data/newsData.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/news/data/newsData.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/news/data/newsFullData.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/news/data/newsFullData.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/news/newItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/news/newItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/news/newsFull.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/news/newsFull.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,8 +36,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -55,43 +56,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "javascript.preferred.runtime.type.id": "node",
-    "js.debugger.nextJs.config.created.client": "true",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/Users/turgu/WebstormProjects/untitled1/public/svg",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_interpreter_path": "node",
-    "nodejs_package_manager_path": "npm",
-    "npm.dev.executor": "Run",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "to.speed.mode.migration.done": "true",
-    "ts.external.directory.path": "C:\\Users\\turgu\\WebstormProjects\\untitled1\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
+    &quot;js.debugger.nextJs.config.created.client&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/turgu/WebstormProjects/untitled1/public/image&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.dev.executor&quot;: &quot;Run&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\turgu\\WebstormProjects\\untitled1\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "GitStage.ChangesTree.GroupingKeys": [
-      "directory",
-      "module",
-      "repository"
+  &quot;keyToStringList&quot;: {
+    &quot;GitStage.ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;,
+      &quot;module&quot;,
+      &quot;repository&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\turgu\WebstormProjects\untitled1\public\svg" />
       <recent name="C:\Users\turgu\WebstormProjects\untitled1\public\image" />
+      <recent name="C:\Users\turgu\WebstormProjects\untitled1\public\svg" />
       <recent name="C:\Users\turgu\WebstormProjects\untitled1\src\components\news" />
       <recent name="C:\Users\turgu\WebstormProjects\untitled1\public" />
       <recent name="C:\Users\turgu\WebstormProjects\untitled1\src\assets\icons" />
@@ -164,7 +165,9 @@
       <workItem from="1774860312165" duration="57000" />
       <workItem from="1774860393960" duration="122000" />
       <workItem from="1774861404061" duration="3980000" />
-      <workItem from="1774870772043" duration="24876000" />
+      <workItem from="1774870772043" duration="27602000" />
+      <workItem from="1774929963775" duration="8386000" />
+      <workItem from="1775028050564" duration="7788000" />
     </task>
     <servers />
   </component>

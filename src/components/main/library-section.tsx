@@ -15,9 +15,6 @@ export default function LibrarySection() {
             </div>
             <div className={"flex flex-col w-full h-105.75 hover:cursor-pointer"}>
                 <BooksSelection/>
-                <BooksSelection/>
-                <BooksSelection/>
-                <BooksSelection/>
             </div>
         </main>
     )
