@@ -6,27 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="24d02657-c612-4a1b-b3fa-36f9b51d81cc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/courses/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/courses/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/library/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/library/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/news-full/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/news-full/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/news/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/news/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/courses/filter/course-filters.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/courses/filter/filter-categories.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/courses/filter/filter-language.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/courses/filter/filter-level.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/footer/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/library/books-selection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/library/books-selection.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/library/library-filter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/library/library-filter.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/library/library-section.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/library/library-section.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/library/libraryItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/library/libraryItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/main/chess-banner.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/chess-banner.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/main/library-section.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/library-section.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/news/data/newsData.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/news/data/newsData.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/news/data/newsFullData.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/news/data/newsFullData.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/courses/coursesItems.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/courses/coursesItems.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main/rules-use.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/rules-use.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/news/newItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/news/newItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/news/newsFull.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/news/newsFull.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/news/search.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/news/search.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -68,7 +54,7 @@
     &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
     &quot;js.debugger.nextJs.config.created.client&quot;: &quot;true&quot;,
     &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/turgu/WebstormProjects/untitled1/public/image&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/turgu/WebstormProjects/untitled1/public/svg&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -91,8 +77,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\turgu\WebstormProjects\untitled1\public\image" />
       <recent name="C:\Users\turgu\WebstormProjects\untitled1\public\svg" />
+      <recent name="C:\Users\turgu\WebstormProjects\untitled1\public\image" />
       <recent name="C:\Users\turgu\WebstormProjects\untitled1\src\components\news" />
       <recent name="C:\Users\turgu\WebstormProjects\untitled1\public" />
       <recent name="C:\Users\turgu\WebstormProjects\untitled1\src\assets\icons" />
@@ -167,7 +153,8 @@
       <workItem from="1774861404061" duration="3980000" />
       <workItem from="1774870772043" duration="27602000" />
       <workItem from="1774929963775" duration="8386000" />
-      <workItem from="1775028050564" duration="7788000" />
+      <workItem from="1775028050564" duration="10918000" />
+      <workItem from="1775054323532" duration="4387000" />
     </task>
     <servers />
   </component>

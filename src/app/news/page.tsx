@@ -12,7 +12,6 @@ export default function NewsPage () {
             <Breadcrumbs items={[{label: 'Yangiliklar', link: '/news'}]}/>
             <div className="flex justify-center gap-8 px-8 ">
                 <div className="flex flex-col items-center gap-6">
-                    <Search/>
                     <div>
                         <NewsItem/>
                     </div>
