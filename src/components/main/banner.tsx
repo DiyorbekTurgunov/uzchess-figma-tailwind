@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Banner() {
     return (
-        <main className="flex w-81.5 h-48 rounded-lg bg-[#0B4789] border border-[#1F272A] ">
+        <main className="flex w-81.5 h-48 rounded-lg bg-[#0B4789] border border-[#1F272A]">
             <Image className={"absolute ml-62 rounded-lg"} src={"/svg/Vector.svg"} alt={"svg"} width={76} height={76}/>
             <div className="flex flex-col justify-between p-4">
                 <div className="flex">

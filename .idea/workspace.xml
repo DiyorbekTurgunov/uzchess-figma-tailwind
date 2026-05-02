@@ -6,13 +6,34 @@
   <component name="ChangeListManager">
     <list default="true" id="24d02657-c612-4a1b-b3fa-36f9b51d81cc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/book-about/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/book-about/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/contact/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/contact/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/main/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/main/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/news/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/news/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/rules-use/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/rules-use/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/courses/coursesItems.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/courses/coursesItems.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/courses/filters/course-filters.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/courses/filters/course-filters.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/navbar/logo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/navbar/logo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/pages/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/pages/Navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/pages/navItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/pages/navItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/rightside/r-side.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/rightside/r-side.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/library/libraryItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/library/libraryItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/library/pages/book-about.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/library/pages/book-about.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main/banner.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/banner.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main/library-section.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/library-section.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main/live.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/live.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/main/rules-use.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/rules-use.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main/sections.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/sections.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/news/data/newsData.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/news/data/newsData.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/news/newItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/news/newItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/news/search.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/news/search.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +43,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -42,52 +63,52 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
-    &quot;js.debugger.nextJs.config.created.client&quot;: &quot;true&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/turgu/WebstormProjects/untitled1/public/svg&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;npm.dev.executor&quot;: &quot;Run&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\turgu\\WebstormProjects\\untitled1\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "javascript.preferred.runtime.type.id": "node",
+    "js.debugger.nextJs.config.created.client": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "C:/Users/turgu/WebstormProjects/untitled1/public",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "npm",
+    "npm.dev.executor": "Run",
+    "settings.editor.selected.configurable": "settings.typescriptcompiler",
+    "to.speed.mode.migration.done": "true",
+    "ts.external.directory.path": "C:\\Users\\turgu\\WebstormProjects\\untitled1\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;GitStage.ChangesTree.GroupingKeys&quot;: [
-      &quot;directory&quot;,
-      &quot;module&quot;,
-      &quot;repository&quot;
+  "keyToStringList": {
+    "GitStage.ChangesTree.GroupingKeys": [
+      "directory",
+      "module",
+      "repository"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\turgu\WebstormProjects\untitled1\public\svg" />
-      <recent name="C:\Users\turgu\WebstormProjects\untitled1\public\image" />
-      <recent name="C:\Users\turgu\WebstormProjects\untitled1\src\components\news" />
       <recent name="C:\Users\turgu\WebstormProjects\untitled1\public" />
+      <recent name="C:\Users\turgu\WebstormProjects\untitled1\public\image" />
+      <recent name="C:\Users\turgu\WebstormProjects\untitled1\public\svg" />
+      <recent name="C:\Users\turgu\WebstormProjects\untitled1\src\components\news" />
       <recent name="C:\Users\turgu\WebstormProjects\untitled1\src\assets\icons" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\turgu\WebstormProjects\untitled1\public\svg" />
+      <recent name="C:\Users\turgu\WebstormProjects\untitled1\src\components\contact" />
       <recent name="C:\Users\turgu\WebstormProjects\untitled1\public\image" />
       <recent name="C:\Users\turgu\WebstormProjects\untitled1\src\components\library" />
-      <recent name="C:\Users\turgu\WebstormProjects\untitled1\src\components\contact" />
       <recent name="C:\Users\turgu\WebstormProjects\untitled1\src\components\library\pages" />
     </key>
   </component>
@@ -155,6 +176,34 @@
       <workItem from="1774929963775" duration="8386000" />
       <workItem from="1775028050564" duration="10918000" />
       <workItem from="1775054323532" duration="4387000" />
+      <workItem from="1775273366808" duration="10912000" />
+      <workItem from="1775460536761" duration="9382000" />
+      <workItem from="1775557919523" duration="1792000" />
+      <workItem from="1775618801060" duration="9359000" />
+      <workItem from="1775713547720" duration="4387000" />
+      <workItem from="1775886117620" duration="6434000" />
+      <workItem from="1775908332632" duration="11490000" />
+      <workItem from="1776071829078" duration="803000" />
+      <workItem from="1776161382267" duration="2065000" />
+      <workItem from="1776224804986" duration="6123000" />
+      <workItem from="1776237576179" duration="1130000" />
+      <workItem from="1776484692004" duration="1320000" />
+      <workItem from="1776495016080" duration="579000" />
+      <workItem from="1776672748954" duration="757000" />
+      <workItem from="1776674876366" duration="10654000" />
+      <workItem from="1776768852594" duration="4390000" />
+      <workItem from="1776774252729" duration="3141000" />
+      <workItem from="1776830445399" duration="1780000" />
+      <workItem from="1776842230830" duration="9121000" />
+      <workItem from="1777002866409" duration="116000" />
+      <workItem from="1777277109432" duration="4425000" />
+      <workItem from="1777446230461" duration="11104000" />
+      <workItem from="1777526130718" duration="12092000" />
+      <workItem from="1777555235053" duration="1466000" />
+      <workItem from="1777697941495" duration="2000" />
+      <workItem from="1777697969110" duration="15000" />
+      <workItem from="1777698950342" duration="14000" />
+      <workItem from="1777699517248" duration="4296000" />
     </task>
     <servers />
   </component>

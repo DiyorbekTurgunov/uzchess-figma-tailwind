@@ -25,8 +25,7 @@ export default function Logo () {
                         setOpen(!open);
                         setRotated(!rotated);
                     }}
-                    className="w-full text-white flex gap-1 items-center rounded hover:cursor-pointer"
-                >
+                    className="w-full text-white flex gap-1 items-center rounded hover:cursor-pointer">
                     {language}
                     <span className="inline-block transition-transform duration-300 transform">
                       <Image

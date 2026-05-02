@@ -6,7 +6,7 @@ import {Breadcrumbs} from "@/components/Breadcrumbs/Breadcrumbs";
 export default function RulesUsePage() {
     return (
         <main className="flex flex-col">
-            <Breadcrumbs/>
+            <Breadcrumbs items={[{label: 'Foydalanish qoidalari', link: '/rules-use'}]}/>
             <RulesUse/>
         </main>
     )

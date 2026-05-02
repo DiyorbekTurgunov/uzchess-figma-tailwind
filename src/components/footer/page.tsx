@@ -7,11 +7,11 @@ import Link from "next/link";
 
 export default function Footer () {
     return (
-        <div className="mt-13.5 h-52 flex flex-col justify-between items-center bg-[#1A1D1F]">
+        <div className="mt-13.5 h-52 flex w-full flex-col justify-between items-center bg-[#1A1D1F]">
             <Image src="/svg/uzchess_footer.svg" alt="chevron" width={117} height={40}/>
             <UrlPages/>
             <ProviderPage/>
-            <div className="flex w-full items-center justify-between  pl-8 pr-3.75 h-12.5 border-t border-[#6F767E] backdrop-blur-md">
+            <div className="flex w-full items-center justify-between  pl-8 pr-3.75 h-12.5 border-t border-[#6F767E] ">
                 <p className="text-[#EFEFEF] font-normal text-base ">© UzChess. All rights reserved.</p>
                 <div className={"w-28"}>
                     <Image src="/svg/fly_hourse.svg" alt="chevron" width={33} height={18}/>

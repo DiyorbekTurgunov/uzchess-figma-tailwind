@@ -14,7 +14,7 @@ import News from "@/components/main/news";
 export default function Main() {
     return (
         <main className="flex flex-col">
-            <div className="flex justify-center gap-6">
+            <div className="flex flex-wrap justify-center gap-6">
                 <div className="flex flex-col gap-6">
                     <Live/>
                     <Rating/>

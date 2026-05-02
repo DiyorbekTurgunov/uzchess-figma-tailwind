@@ -30,7 +30,7 @@ export default function CoursesItems() {
                         </div>
                         <div className="flex w-full flex-col justify-between">
                             <div>
-                                <p className="font-bold text-[20px] text-[#F7F9FA]">{item.title}</p>
+                                <p className="font-bold text-[20px] text-[#F7F9FA] line-clamp-1">{item.title}</p>
                                 <p className="font-sans text-[14px] text-[#F7F9FA99]">{item.author}</p>
                             </div>
                             <div>
@@ -52,18 +52,7 @@ export default function CoursesItems() {
                                     <Image className="mr-1" src={item.svg3} alt="grid" width={24} height={24}/>
                                     <p className="text-[14px] text-[#F7F9FA99]">{item.desc3}</p>
                                 </div>
-                                <Image
-                                    onClick={() => toggleLike(item.id)}
-                                    className="hover:cursor-pointer"
-                                    src={
-                                        item.isLike
-                                            ? "/svg/red-heart.svg"
-                                            : "/svg/heart-outline.svg"
-                                    }
-                                    alt="like"
-                                    width={24}
-                                    height={24}
-                                />
+                                <Image onClick={() => toggleLike(item.id)} className="hover:cursor-pointer" src={ item.isLike ? "/svg/red-heart.svg" : "/svg/heart-outline.svg"} alt="like" width={24} height={24}/>
                             </div>
                         </div>
                     </div>

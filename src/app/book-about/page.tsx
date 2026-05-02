@@ -4,7 +4,11 @@ import {Breadcrumbs} from "@/components/Breadcrumbs/Breadcrumbs";
 export default function BooksPage() {
     return (
         <main>
-            <Breadcrumbs items={[{label: "library shaxmat", link: "/book-about"}]}/>
+            <Breadcrumbs items={[
+                {label: "Kutubxona", link: "/library"},
+                {label: "library shaxmat", link: "/book-about"}
+            ]}/>
+
             <BookAbout/>
         </main>
     )

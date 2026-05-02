@@ -34,21 +34,21 @@ export default function BookAbout() {
                                 </div>
                                 <div className={"flex flex-col justify-center w-46.75 h-15.5 border border-[#2C2F31] p-3"}>
                                     <div className={"flex"}>
-                                        <Image src={"/svg/shaxmatdona.svg"} alt={"svg"} width={16} height={16}/>
+                                        <Image src={"/svg/icons8.svg"} alt={"svg"} width={16} height={16}/>
                                         <p className={"font-normal text-[14px] text-[#9DA1A3]"}>Muallif</p>
                                     </div>
                                     <p className={"font-medium text-[14px] text-[#F7F9FA]"}>Jeremy Silman</p>
                                 </div>
                                 <div className={"flex flex-col justify-center w-46.75 h-15.5 border border-[#2C2F31] p-3"}>
                                     <div className={"flex"}>
-                                        <Image src={"/svg/shaxmatdona.svg"} alt={"svg"} width={16} height={16}/>
+                                        <Image src={"/svg/book_2.svg"} alt={"svg"} width={16} height={16}/>
                                         <p className={"font-normal text-[14px] text-[#9DA1A3]"}>Sahifa soni</p>
                                     </div>
                                     <p className={"font-medium text-[14px] text-[#F7F9FA]"}>231</p>
                                 </div>
                                 <div className={"flex flex-col justify-center w-46.75 h-15.5 border border-[#2C2F31] p-3"}>
                                     <div className={"flex"}>
-                                        <Image src={"/svg/shaxmatdona.svg"} alt={"svg"} width={16} height={16}/>
+                                        <Image src={"/svg/calendar2.svg"} alt={"svg"} width={16} height={16}/>
                                         <p className={"font-normal text-[14px] text-[#9DA1A3]"}>Chop etilgan sana</p>
                                     </div>
                                     <p className={"font-medium text-[14px] text-[#F7F9FA]"}>2002</p>
